@@ -29,6 +29,7 @@ function App() {
       <section>
         <button onClick={handleClick}>Öka med 1</button>
         <button onClick={decrement}>minska med 1</button>
+       <button onClick={() => document.body.style.background = "#"+((Math.random()*0xffffff<<0).toString(16))}>byt färg</button>      
       </section>
     </>
   );
